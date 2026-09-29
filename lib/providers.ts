@@ -7,10 +7,10 @@ import { ProviderConfig } from "./types";
 export const SUPPORTED_PROVIDERS: ProviderConfig[] = [
   {
     id: "sfl",
-    name: "SFL.gl",
-    domains: ["sfl.gl"],
+    name: "SFL.gl / Linku",
+    domains: ["sfl.gl", "linku.to"],
     example: "https://sfl.gl/sample-link",
-    description: "Shortlink SFL",
+    description: "Shortlink SFL & Linku.to",
   },
   {
     id: "linkvertise",
